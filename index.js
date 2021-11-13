@@ -1,6 +1,5 @@
 "use strict";
 const anyMatch = require("any-match");
-const deepFreeze = require("deep-freeze-node");
 const evaluateValue = require("evaluate-value");
 const isURL = require("isurl");
 const stripWWW = require("strip-www");
@@ -262,4 +261,4 @@ minURL.COMMON_PROFILE = COMMON_PROFILE;
 
 
 
-module.exports = deepFreeze(minURL);
+module.exports = minURL;
